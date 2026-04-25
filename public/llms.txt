@@ -1,49 +1,35 @@
-# Koko Express — Generative Engine Optimization Map
-
-> Koko Express is a nationwide courier and delivery company that specializes in door-to-door delivery services across the country. The brand focuses on convenience, reliability, and bringing packages directly to customers' homes, emphasizing a personal and accessible delivery experience.
+# Business — Generative Engine Optimization Map
 
 ---
 
 ## Pages
 
 ### בית
-https://koko-express-f1bfb1c4.zappy5.app
+https://example.com
 Koko Express is a nationwide courier and delivery company that specializes in door-to-door delivery services across the country. The brand focuses on convenienc
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://koko-express-f1bfb1c4.zappy5.app/privacy
+https://example.com/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://koko-express-f1bfb1c4.zappy5.app/terms
+https://example.com/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://koko-express-f1bfb1c4.zappy5.app/accessibility
+https://example.com/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
 
 # Business Context (for LLM understanding)
 
-## About Koko Express
-Koko Express is a nationwide courier and delivery company that specializes in door-to-door delivery services across the country. The brand focuses on convenience, reliability, and bringing packages directly to customers' homes, emphasizing a personal and accessible delivery experience.
-
-## Services/Products
-- שליחיות ארצית
-- משלוח עד בית הלקוח
-
-## Target Audience
-לקוחות פרטיים ועסקיים הזקוקים לשירותי משלוח עד הבית
-
-## Industry
-לוגיסטיקה ומשלוחים
-
+## About Business
 ---
 
 # Additional Resources
 
-- **Sitemap**: https://koko-express-f1bfb1c4.zappy5.app/sitemap.xml
-- **Robots.txt**: https://koko-express-f1bfb1c4.zappy5.app/robots.txt
+- **Sitemap**: https://example.com/sitemap.xml
+- **Robots.txt**: https://example.com/robots.txt

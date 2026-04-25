@@ -343,7 +343,7 @@
     </svg>
   </button>
 
-  <button class="phone-header-btn" data-phone="[business_phone]" aria-label="Call">
+  <button class="phone-header-btn" data-phone="0527063995" aria-label="Call">
     <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
       <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
     </svg>
@@ -746,7 +746,7 @@
         const phoneLinks = document.querySelectorAll('a[href^="tel:"]');
         const phoneNumber = phoneLinks.length > 0 
           ? phoneLinks[0].getAttribute('href').replace('tel:', '')
-          : '[business_phone]';
+          : '0527063995';
         
         window.location.href = 'tel:' + phoneNumber;
         console.log('[Navbar] Phone button clicked');
@@ -824,7 +824,7 @@
       <!-- CTA Buttons -->
       <div class="index-hero-ctas">
         <a href="#contact" class="index-hero-btn-primary">בקשו שירות עכשיו</a>
-        <a href="tel:[business_phone]" class="index-hero-btn-secondary">
+        <a href="tel:0527063995" class="index-hero-btn-secondary">
           <i class="fa-solid fa-phone" aria-hidden="true"></i>
           <span>דברו איתנו</span>
         </a>
@@ -1211,7 +1211,7 @@
     <div class="index-stats-section__trust-row" role="list">
       <div class="index-stats-section__trust-item" role="listitem">
         <i class="fa-solid fa-location-dot index-stats-section__trust-icon" aria-hidden="true"></i>
-        <span>כיסוי ארצי מלא — מהצפון לדרום</span>
+        <span>הסדנא , פתח תקוה, מרכז, ישראל</span>
       </div>
       <div class="index-stats-section__trust-divider" aria-hidden="true"></div>
       <div class="index-stats-section__trust-item" role="listitem">
@@ -1402,7 +1402,7 @@
             </span>
             <div class="index-contact-section__contact-content">
               <span class="index-contact-section__contact-label">טלפון</span>
-              <a href="tel:[business_phone]" class="index-contact-section__contact-link">[business_phone]</a>
+              <a href="tel:0527063995" class="index-contact-section__contact-link">0527063995</a>
             </div>
           </li>
 
@@ -1412,7 +1412,7 @@
             </span>
             <div class="index-contact-section__contact-content">
               <span class="index-contact-section__contact-label">אימייל</span>
-              <a href="mailto:[business_email]" class="index-contact-section__contact-link">[business_email]</a>
+              <a href="mailto:karinros1998@gmail.com" class="index-contact-section__contact-link">karinros1998@gmail.com</a>
             </div>
           </li>
 
@@ -1422,7 +1422,7 @@
             </span>
             <div class="index-contact-section__contact-content">
               <span class="index-contact-section__contact-label">כתובת</span>
-              <a href="https://maps.google.com/?q=[business_address]" target="_blank" rel="noopener noreferrer" class="index-contact-section__contact-link">[business_address]</a>
+              <a href="https://maps.google.com/?q=הסדנא , פתח תקוה, מרכז, ישראל" target="_blank" rel="noopener noreferrer" class="index-contact-section__contact-link">הסדנא , פתח תקוה, מרכז, ישראל</a>
             </div>
           </li>
 
@@ -1438,15 +1438,15 @@
         </ul>
 
         <div class="index-contact-section__social">
-          <a href="https://wa.me/[whatsapp_handle]" target="_blank" rel="noopener noreferrer" class="index-contact-section__social-btn" aria-label="WhatsApp">
+          <a href="#" target="_blank" rel="noopener noreferrer" class="index-contact-section__social-btn" aria-label="WhatsApp" style="display:none !important;">
             <i class="fab fa-whatsapp"></i>
             <span>WhatsApp</span>
           </a>
-          <a href="https://facebook.com/[facebook_handle]" target="_blank" rel="noopener noreferrer" class="index-contact-section__social-btn" aria-label="Facebook">
+          <a href="#" target="_blank" rel="noopener noreferrer" class="index-contact-section__social-btn" aria-label="Facebook" style="display:none !important;">
             <i class="fab fa-facebook-f"></i>
             <span>Facebook</span>
           </a>
-          <a href="https://instagram.com/[instagram_handle]" target="_blank" rel="noopener noreferrer" class="index-contact-section__social-btn" aria-label="Instagram">
+          <a href="#" target="_blank" rel="noopener noreferrer" class="index-contact-section__social-btn" aria-label="Instagram" style="display:none !important;">
             <i class="fab fa-instagram"></i>
             <span>Instagram</span>
           </a>
@@ -1504,9 +1504,9 @@
         </div>
         <p class="footer-tagline">מובילים את המשלוחים שלך לכל פינה בארץ — מהר, בטוח ואמין.</p>
         <div class="footer-social">
-          <a href="[facebook_handle]" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-          <a href="[instagram_handle]" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-          <a href="[whatsapp_handle]" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+          <a href="#" aria-label="Facebook" style="display:none !important;"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram" style="display:none !important;"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="WhatsApp" style="display:none !important;"><i class="fab fa-whatsapp"></i></a>
         </div>
       </div>
 
@@ -1528,14 +1528,14 @@
         <ul class="footer-contact">
           <li>
             <span class="contact-icon"><i class="fas fa-envelope"></i></span>
-            <span class="contact-text"><a href="mailto:[business_email]">[business_email]</a></span>
+            <span class="contact-text"><a href="mailto:karinros1998@gmail.com">karinros1998@gmail.com</a></span>
           </li>
           <li>
             <span class="contact-icon"><i class="fas fa-phone"></i></span>
-            <span class="contact-text"><a href="tel:[business_phone]">[business_phone]</a></span>
+            <span class="contact-text"><a href="tel:0527063995">0527063995</a></span>
           </li>
-          <li><a href="/"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span>
-            <span class="contact-text">[business_address]</span></a></li>
+          <li><a href="/" style="display:flex;align-items:flex-start;gap:inherit"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span>
+            <span class="contact-text">הסדנא , פתח תקוה, מרכז, ישראל</span></a></li>
         </ul>
       </div>
 
